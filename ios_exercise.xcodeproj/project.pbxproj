@@ -8,15 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		84FDCFDB2BCEAAA000AC22C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDCFDA2BCEAAA000AC22C2 /* AppDelegate.swift */; };
-		84FDCFDD2BCEAAA000AC22C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDCFDC2BCEAAA000AC22C2 /* SceneDelegate.swift */; };
-		84FDCFDF2BCEAAA000AC22C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDCFDE2BCEAAA000AC22C2 /* ViewController.swift */; };
-		84FDCFE22BCEAAA000AC22C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDCFE02BCEAAA000AC22C2 /* Main.storyboard */; };
 		84FDCFE52BCEAAA000AC22C2 /* ios_exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84FDCFE32BCEAAA000AC22C2 /* ios_exercise.xcdatamodeld */; };
 		84FDCFE72BCEAAA100AC22C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FDCFE62BCEAAA100AC22C2 /* Assets.xcassets */; };
 		84FDCFEA2BCEAAA100AC22C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDCFE82BCEAAA100AC22C2 /* LaunchScreen.storyboard */; };
 		84FDCFF52BCEAAA100AC22C2 /* ios_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDCFF42BCEAAA100AC22C2 /* ios_exerciseTests.swift */; };
 		84FDCFFF2BCEAAA200AC22C2 /* ios_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDCFFE2BCEAAA200AC22C2 /* ios_exerciseUITests.swift */; };
 		84FDD0012BCEAAA200AC22C2 /* ios_exerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDD0002BCEAAA200AC22C2 /* ios_exerciseUITestsLaunchTests.swift */; };
+		84FDD0112BCEAE2700AC22C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84FDD0132BCEAE2700AC22C2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +37,18 @@
 /* Begin PBXFileReference section */
 		84FDCFD72BCEAAA000AC22C2 /* ios_exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDCFDA2BCEAAA000AC22C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84FDCFDC2BCEAAA000AC22C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84FDCFDE2BCEAAA000AC22C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84FDCFE12BCEAAA000AC22C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FDCFE42BCEAAA000AC22C2 /* ios_exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_exercise.xcdatamodel; sourceTree = "<group>"; };
 		84FDCFE62BCEAAA100AC22C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FDCFE92BCEAAA100AC22C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84FDCFEB2BCEAAA100AC22C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FDCFF02BCEAAA100AC22C2 /* ios_exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_exerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDCFF42BCEAAA100AC22C2 /* ios_exerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_exerciseTests.swift; sourceTree = "<group>"; };
 		84FDCFFA2BCEAAA200AC22C2 /* ios_exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_exerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDCFFE2BCEAAA200AC22C2 /* ios_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_exerciseUITests.swift; sourceTree = "<group>"; };
 		84FDD0002BCEAAA200AC22C2 /* ios_exerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_exerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84FDD00E2BCEAD3100AC22C2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84FDD0122BCEAE2700AC22C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84FDD0142BCEAE2B00AC22C2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84FDD0162BCEB4EC00AC22C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +99,8 @@
 		84FDCFD92BCEAAA000AC22C2 /* ios_exercise */ = {
 			isa = PBXGroup;
 			children = (
-				84FDCFDA2BCEAAA000AC22C2 /* AppDelegate.swift */,
-				84FDCFDC2BCEAAA000AC22C2 /* SceneDelegate.swift */,
-				84FDCFDE2BCEAAA000AC22C2 /* ViewController.swift */,
-				84FDCFE02BCEAAA000AC22C2 /* Main.storyboard */,
-				84FDCFE62BCEAAA100AC22C2 /* Assets.xcassets */,
-				84FDCFE82BCEAAA100AC22C2 /* LaunchScreen.storyboard */,
-				84FDCFEB2BCEAAA100AC22C2 /* Info.plist */,
+				84FDD01A2BCEB60500AC22C2 /* Application */,
+				84FDD00D2BCEAB8100AC22C2 /* Resources */,
 				84FDCFE32BCEAAA000AC22C2 /* ios_exercise.xcdatamodeld */,
 			);
 			path = ios_exercise;
@@ -128,6 +121,25 @@
 				84FDD0002BCEAAA200AC22C2 /* ios_exerciseUITestsLaunchTests.swift */,
 			);
 			path = ios_exerciseUITests;
+			sourceTree = "<group>";
+		};
+		84FDD00D2BCEAB8100AC22C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84FDD0162BCEB4EC00AC22C2 /* Info.plist */,
+				84FDD0132BCEAE2700AC22C2 /* Localizable.strings */,
+				84FDCFE82BCEAAA100AC22C2 /* LaunchScreen.storyboard */,
+				84FDCFE62BCEAAA100AC22C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84FDD01A2BCEB60500AC22C2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				84FDCFDA2BCEAAA000AC22C2 /* AppDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +228,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 84FDCFCE2BCEAAA000AC22C2;
 			productRefGroup = 84FDCFD82BCEAAA000AC22C2 /* Products */;
@@ -235,8 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FDCFEA2BCEAAA100AC22C2 /* LaunchScreen.storyboard in Resources */,
+				84FDD0112BCEAE2700AC22C2 /* Localizable.strings in Resources */,
 				84FDCFE72BCEAAA100AC22C2 /* Assets.xcassets in Resources */,
-				84FDCFE22BCEAAA000AC22C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FDCFDF2BCEAAA000AC22C2 /* ViewController.swift in Sources */,
 				84FDCFDB2BCEAAA000AC22C2 /* AppDelegate.swift in Sources */,
-				84FDCFDD2BCEAAA000AC22C2 /* SceneDelegate.swift in Sources */,
 				84FDCFE52BCEAAA000AC22C2 /* ios_exercise.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,20 +312,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84FDCFE02BCEAAA000AC22C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FDCFE12BCEAAA000AC22C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84FDCFE82BCEAAA100AC22C2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84FDCFE92BCEAAA100AC22C2 /* Base */,
+				84FDD00E2BCEAD3100AC22C2 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84FDD0132BCEAE2700AC22C2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FDD0122BCEAE2700AC22C2 /* en */,
+				84FDD0142BCEAE2B00AC22C2 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -325,6 +338,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -388,6 +402,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -442,16 +457,18 @@
 		84FDD0052BCEAAA200AC22C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_BASE_URL = "http://api.themoviedb.org";
+				API_KEY = 2696829a81b1b5827d515ff121700838;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FGSCFWBUX2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ios_exercise/Info.plist;
+				IMAGE_BASE_URL = "http://image.tmdb.org";
+				INFOPLIST_FILE = "$(SRCROOT)/ios_exercise/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,16 +487,18 @@
 		84FDD0062BCEAAA200AC22C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_BASE_URL = "http://api.themoviedb.org";
+				API_KEY = 2696829a81b1b5827d515ff121700838;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FGSCFWBUX2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ios_exercise/Info.plist;
+				IMAGE_BASE_URL = "http://image.tmdb.org";
+				INFOPLIST_FILE = "$(SRCROOT)/ios_exercise/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
