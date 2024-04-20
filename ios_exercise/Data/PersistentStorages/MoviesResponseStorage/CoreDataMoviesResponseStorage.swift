@@ -41,7 +41,7 @@ extension CoreDataMoviesResponseStorage: MoviesResponseStorage {
 
     func getResponse(
         for requestDto: MoviesRequestDTO,
-        completion: @escaping (Result<MoviesResponseDTO?, Error>) -> Void
+        completion: @escaping (Result<MoviesResponsesDTO?, Error>) -> Void
     ) {
         coreDataStorage.performBackgroundTask { context in
             do {
@@ -56,7 +56,7 @@ extension CoreDataMoviesResponseStorage: MoviesResponseStorage {
     }
 
     func save(
-        response responseDto: MoviesResponseDTO,
+        response responseDto: MoviesResponsesDTO,
         for requestDto: MoviesRequestDTO
     ) {
         coreDataStorage.performBackgroundTask { context in

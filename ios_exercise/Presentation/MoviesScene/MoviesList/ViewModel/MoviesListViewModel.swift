@@ -1,6 +1,6 @@
 import Foundation
 
-struct MoviesListViewModelActions {
+struct MoviesListVMActions {
     /// Note: if you would need to edit movie inside Details screen and update this Movies List screen with updated movie then you would need this closure:
     /// showMovieDetails: (Movie, @escaping (_ updated: Movie) -> Void) -> Void
     let showMovieDetails: (Movie) -> Void
@@ -45,7 +45,7 @@ final class DefaultMoviesListViewModel: MoviesListViewModel {
     private let upComingMoviesUseCase: UpComingMoviesUseCase
     private let topRatedMoviesUseCase: TopRatedMoviesUseCase
     private let popularMoviesUseCase: PopularMoviesUseCase
-    private let actions: MoviesListViewModelActions?
+    private let actions: MoviesListVMActions?
 
     var currentPage: Int = 0
     var totalPageCount: Int = 1
@@ -75,7 +75,7 @@ final class DefaultMoviesListViewModel: MoviesListViewModel {
         upComingMoviesUseCase: UpComingMoviesUseCase,
         topRatedMoviesUseCase: TopRatedMoviesUseCase,
         popularMoviesUseCase: PopularMoviesUseCase,
-        actions: MoviesListViewModelActions? = nil,
+        actions: MoviesListVMActions? = nil,
         mainQueue: DispatchQueueType = DispatchQueue.main
     ) {
         self.searchMoviesUseCase = searchMoviesUseCase

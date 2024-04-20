@@ -36,7 +36,7 @@ extension DefaultMoviesRepository: MoviesRepository {
             }
             guard !task.isCancelled else { return }
             
-            var endpoint : Endpoint<MoviesResponseDTO>? = nil
+            var endpoint : Endpoint<MoviesResponsesDTO>? = nil
             
             switch type {
             case .upcoming:

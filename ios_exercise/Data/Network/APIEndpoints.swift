@@ -2,7 +2,7 @@ import Foundation
 
 struct APIEndpoints {
     
-    static func getMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponseDTO> {
+    static func getMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponsesDTO> {
 
         return Endpoint(
             path: "3/search/movie",
@@ -26,7 +26,7 @@ struct APIEndpoints {
         )
     }
     
-    static func getUpcomingMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponseDTO> {
+    static func getUpcomingMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponsesDTO> {
 
         return Endpoint(
             path: "3/movie/upcoming",
@@ -35,7 +35,7 @@ struct APIEndpoints {
         )
     }
     
-    static func getTopRatedMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponseDTO> {
+    static func getTopRatedMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponsesDTO> {
 
         return Endpoint(
             path: "3/movie/top_rated",
@@ -44,7 +44,7 @@ struct APIEndpoints {
         )
     }
     
-    static func getPopularMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponseDTO> {
+    static func getPopularMovies(with moviesRequestDTO: MoviesRequestDTO) -> Endpoint<MoviesResponsesDTO> {
 
         return Endpoint(
             path: "3/movie/popular",

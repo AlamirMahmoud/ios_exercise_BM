@@ -84,14 +84,14 @@ final class MoviesSceneDIContainer: MoviesSearchFlowCoordinatorDependencies {
     }
     
     // MARK: - Movies List
-    func makeMoviesListViewController(actions: MoviesListViewModelActions) -> MoviesListViewController {
+    func makeMoviesListViewController(actions: MoviesListVMActions) -> MoviesListViewController {
         MoviesListViewController.create(
             with: makeMoviesListViewModel(actions: actions),
             posterImagesRepository: makePosterImagesRepository()
         )
     }
     
-    func makeMoviesListViewModel(actions: MoviesListViewModelActions) -> MoviesListViewModel {
+    func makeMoviesListViewModel(actions: MoviesListVMActions) -> MoviesListViewModel {
         DefaultMoviesListViewModel(
             searchMoviesUseCase: makeSearchMoviesUseCase(), 
             upComingMoviesUseCase: makeUpComingMoviesUseCase(),
