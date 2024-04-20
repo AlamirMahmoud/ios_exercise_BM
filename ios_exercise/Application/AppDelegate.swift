@@ -6,24 +6,36 @@
 //
 
 import UIKit
-import CoreData
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let appDIContainer = AppDIContainer()
+    var appFlowCoordinator: AppFlowCoordinator?
     var window: UIWindow?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        let view = UIViewController()
-        view.view.backgroundColor = UIColor.red
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        
+        AppAppearance.setupAppearance()
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = view
+        let navigationController = UINavigationController()
+
+        window?.rootViewController = navigationController
+        appFlowCoordinator = AppFlowCoordinator(
+            navigationController: navigationController,
+            appDIContainer: appDIContainer
+        )
+        appFlowCoordinator?.start()
         window?.makeKeyAndVisible()
+    
         return true
     }
 
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        CoreDataStorage.shared.saveContext()
+    }
 }
-
