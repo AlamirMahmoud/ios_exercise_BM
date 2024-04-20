@@ -1,4 +1,4 @@
-@testable import ios_exercise
+@testable import banquemisr_challenge05
 import XCTest
 
 class MoviesQueriesListViewModelTests: XCTestCase {

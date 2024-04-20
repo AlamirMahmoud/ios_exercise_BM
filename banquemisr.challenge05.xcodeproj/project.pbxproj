@@ -233,12 +233,12 @@
 		848B58C82BD43E85009A3294 /* UIView+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Action.swift"; sourceTree = "<group>"; };
 		848B58CA2BD4407F009A3294 /* TopRatedMoviesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMoviesUseCase.swift; sourceTree = "<group>"; };
 		848B58CC2BD44406009A3294 /* PopularMoviesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesUseCase.swift; sourceTree = "<group>"; };
-		84FDCFD72BCEAAA000AC22C2 /* ios_exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDCFD72BCEAAA000AC22C2 /* banquemisr.challenge05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banquemisr.challenge05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDCFDA2BCEAAA000AC22C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FDCFE62BCEAAA100AC22C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FDCFE92BCEAAA100AC22C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84FDCFF02BCEAAA100AC22C2 /* ios_exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_exerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FDCFFA2BCEAAA200AC22C2 /* ios_exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_exerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDCFF02BCEAAA100AC22C2 /* banquemisr.challenge05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banquemisr.challenge05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDCFFA2BCEAAA200AC22C2 /* banquemisr.challenge05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banquemisr.challenge05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDD00E2BCEAD3100AC22C2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		84FDD0122BCEAE2700AC22C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84FDD0142BCEAE2B00AC22C2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -806,9 +806,9 @@
 		84FDCFD82BCEAAA000AC22C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84FDCFD72BCEAAA000AC22C2 /* ios_exercise.app */,
-				84FDCFF02BCEAAA100AC22C2 /* ios_exerciseTests.xctest */,
-				84FDCFFA2BCEAAA200AC22C2 /* ios_exerciseUITests.xctest */,
+				84FDCFD72BCEAAA000AC22C2 /* banquemisr.challenge05.app */,
+				84FDCFF02BCEAAA100AC22C2 /* banquemisr.challenge05Tests.xctest */,
+				84FDCFFA2BCEAAA200AC22C2 /* banquemisr.challenge05UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -875,9 +875,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84FDCFD62BCEAAA000AC22C2 /* ios_exercise */ = {
+		84FDCFD62BCEAAA000AC22C2 /* banquemisr.challenge05 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FDD0042BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "ios_exercise" */;
+			buildConfigurationList = 84FDD0042BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "banquemisr.challenge05" */;
 			buildPhases = (
 				84FDCFD32BCEAAA000AC22C2 /* Sources */,
 				84FDCFD42BCEAAA000AC22C2 /* Frameworks */,
@@ -887,14 +887,14 @@
 			);
 			dependencies = (
 			);
-			name = ios_exercise;
+			name = banquemisr.challenge05;
 			productName = ios_exercise;
-			productReference = 84FDCFD72BCEAAA000AC22C2 /* ios_exercise.app */;
+			productReference = 84FDCFD72BCEAAA000AC22C2 /* banquemisr.challenge05.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84FDCFEF2BCEAAA100AC22C2 /* ios_exerciseTests */ = {
+		84FDCFEF2BCEAAA100AC22C2 /* banquemisr.challenge05Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FDD0072BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "ios_exerciseTests" */;
+			buildConfigurationList = 84FDD0072BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "banquemisr.challenge05Tests" */;
 			buildPhases = (
 				84FDCFEC2BCEAAA100AC22C2 /* Sources */,
 				84FDCFED2BCEAAA100AC22C2 /* Frameworks */,
@@ -905,14 +905,14 @@
 			dependencies = (
 				84FDCFF22BCEAAA100AC22C2 /* PBXTargetDependency */,
 			);
-			name = ios_exerciseTests;
+			name = banquemisr.challenge05Tests;
 			productName = ios_exerciseTests;
-			productReference = 84FDCFF02BCEAAA100AC22C2 /* ios_exerciseTests.xctest */;
+			productReference = 84FDCFF02BCEAAA100AC22C2 /* banquemisr.challenge05Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84FDCFF92BCEAAA200AC22C2 /* ios_exerciseUITests */ = {
+		84FDCFF92BCEAAA200AC22C2 /* banquemisr.challenge05UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84FDD00A2BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "ios_exerciseUITests" */;
+			buildConfigurationList = 84FDD00A2BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "banquemisr.challenge05UITests" */;
 			buildPhases = (
 				84FDCFF62BCEAAA200AC22C2 /* Sources */,
 				84FDCFF72BCEAAA200AC22C2 /* Frameworks */,
@@ -923,9 +923,9 @@
 			dependencies = (
 				84FDCFFC2BCEAAA200AC22C2 /* PBXTargetDependency */,
 			);
-			name = ios_exerciseUITests;
+			name = banquemisr.challenge05UITests;
 			productName = ios_exerciseUITests;
-			productReference = 84FDCFFA2BCEAAA200AC22C2 /* ios_exerciseUITests.xctest */;
+			productReference = 84FDCFFA2BCEAAA200AC22C2 /* banquemisr.challenge05UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -951,7 +951,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84FDCFD22BCEAAA000AC22C2 /* Build configuration list for PBXProject "ios_exercise" */;
+			buildConfigurationList = 84FDCFD22BCEAAA000AC22C2 /* Build configuration list for PBXProject "banquemisr.challenge05" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -965,9 +965,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84FDCFD62BCEAAA000AC22C2 /* ios_exercise */,
-				84FDCFEF2BCEAAA100AC22C2 /* ios_exerciseTests */,
-				84FDCFF92BCEAAA200AC22C2 /* ios_exerciseUITests */,
+				84FDCFD62BCEAAA000AC22C2 /* banquemisr.challenge05 */,
+				84FDCFEF2BCEAAA100AC22C2 /* banquemisr.challenge05Tests */,
+				84FDCFF92BCEAAA200AC22C2 /* banquemisr.challenge05UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1144,12 +1144,12 @@
 /* Begin PBXTargetDependency section */
 		84FDCFF22BCEAAA100AC22C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FDCFD62BCEAAA000AC22C2 /* ios_exercise */;
+			target = 84FDCFD62BCEAAA000AC22C2 /* banquemisr.challenge05 */;
 			targetProxy = 84FDCFF12BCEAAA100AC22C2 /* PBXContainerItemProxy */;
 		};
 		84FDCFFC2BCEAAA200AC22C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84FDCFD62BCEAAA000AC22C2 /* ios_exercise */;
+			target = 84FDCFD62BCEAAA000AC22C2 /* banquemisr.challenge05 */;
 			targetProxy = 84FDCFFB2BCEAAA200AC22C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1310,6 +1310,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IMAGE_BASE_URL = "http://image.tmdb.org";
 				INFOPLIST_FILE = "$(SRCROOT)/ios_exercise/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = banquemisr.challenge05;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1341,6 +1342,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IMAGE_BASE_URL = "http://image.tmdb.org";
 				INFOPLIST_FILE = "$(SRCROOT)/ios_exercise/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = banquemisr.challenge05;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1376,7 +1378,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios_exercise";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banquemisr.challenge05.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/banquemisr.challenge05";
 			};
 			name = Debug;
 		};
@@ -1397,7 +1399,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios_exercise";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banquemisr.challenge05.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/banquemisr.challenge05";
 			};
 			name = Release;
 		};
@@ -1413,10 +1415,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ios-exerciseUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ios_exercise;
+				TEST_TARGET_NAME = banquemisr.challenge05;
 			};
 			name = Debug;
 		};
@@ -1432,17 +1435,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.app.ios-exerciseUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ios_exercise;
+				TEST_TARGET_NAME = banquemisr.challenge05;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84FDCFD22BCEAAA000AC22C2 /* Build configuration list for PBXProject "ios_exercise" */ = {
+		84FDCFD22BCEAAA000AC22C2 /* Build configuration list for PBXProject "banquemisr.challenge05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FDD0022BCEAAA200AC22C2 /* Debug */,
@@ -1451,7 +1455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FDD0042BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "ios_exercise" */ = {
+		84FDD0042BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "banquemisr.challenge05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FDD0052BCEAAA200AC22C2 /* Debug */,
@@ -1460,7 +1464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FDD0072BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "ios_exerciseTests" */ = {
+		84FDD0072BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "banquemisr.challenge05Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FDD0082BCEAAA200AC22C2 /* Debug */,
@@ -1469,7 +1473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84FDD00A2BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "ios_exerciseUITests" */ = {
+		84FDD00A2BCEAAA200AC22C2 /* Build configuration list for PBXNativeTarget "banquemisr.challenge05UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84FDD00B2BCEAAA200AC22C2 /* Debug */,
